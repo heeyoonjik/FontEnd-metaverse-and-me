@@ -5,6 +5,7 @@ const Guest = () => {
     <>
       <HeaderSection />
       <GridBox>
+        <Box />
         <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box />{" "}
         <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box />{" "}
         <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box /> <Box />{" "}
