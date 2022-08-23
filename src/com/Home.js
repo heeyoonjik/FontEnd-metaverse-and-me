@@ -13,7 +13,7 @@ const Home = () => {
         src="/img/motioncom.mp4"
         autoPlay={true}
         loop
-        muted
+        mutedplaysinline
         id="section1"
       />
       <MobileVideoBg
@@ -21,6 +21,7 @@ const Home = () => {
         autoPlay={true}
         loop
         muted
+        playsinline
         id="section1"
       />
 
