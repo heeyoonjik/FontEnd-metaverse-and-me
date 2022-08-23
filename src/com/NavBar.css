@@ -1,0 +1,21 @@
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 770px) {
+  .active {
+    background-color: black;
+    z-index: -122012;
+  }
+}
+
+.Guestactive {
+  background-color: white;
+}
+
+@media screen and (max-width: 770px) {
+  .Guestactive {
+    background-color: white;
+    z-index: -122012;
+  }
+}
