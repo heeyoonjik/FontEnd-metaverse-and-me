@@ -11,7 +11,7 @@ export const Modal = (props) => {
     setMobileModalShow((e) => !e);
   };
   return props.openModal ? (
-    <Inner data-aos="fade">
+    <Inner data-aos="fade-up">
       {peoples.map((people) => (
         <ModalBlock key={people.id}>
           <MobileModalHeader>

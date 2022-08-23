@@ -62,14 +62,19 @@ const Introduction = () => {
             거듭납니다. 나와 당신은 진정한 ‘나’를 찾고. ‘나’의 생각을 설계하며,
             상대방과 ‘나’를 연결합니다.
           </IdentityP>
-          <div
+
+          <IdentityLine
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
             data-aos-once="true"
-          >
-            <IdentityLine />
-            <Star src="img/star.png" alt="star" />
-          </div>
+          />
+          <Star
+            src="img/star.png"
+            alt="star"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-once="true"
+          />
         </IdentitySection>
         <CreditBox>
           <ArtistSection
@@ -251,7 +256,7 @@ const SliderBox = styled.div`
 `;
 
 const MobileSliderBox = styled.div`
-  padding-top: 26vw;
+  padding-top: 25vw;
   display: none;
   width: 100vw;
 
@@ -311,7 +316,6 @@ const Star = styled.img`
   height: 1.4vw;
   @media screen and (max-width: 770px) {
     height: 4vw;
-    left: -1.93vw;
   }
 `;
 

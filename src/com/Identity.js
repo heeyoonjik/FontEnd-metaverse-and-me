@@ -318,7 +318,8 @@ export default Identity;
 const TotalInner = styled.div`
   width: 100vw;
   @media screen and (max-width: 770px) {
-    overflow-x: hidden;
+    /* overflow-x: hidden;
+    min-width: 100vw; */
   }
 `;
 

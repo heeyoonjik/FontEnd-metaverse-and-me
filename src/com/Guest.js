@@ -245,8 +245,8 @@ const CommentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 83.2vw;
-    height: 41.8vw;
-    margin-top: 5.543vw;
+    height: 42.4vw;
+    margin-top: 5.24vw;
   }
 `;
 
