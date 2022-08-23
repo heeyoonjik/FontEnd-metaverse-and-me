@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Introduction = () => {
   useEffect(() => {
-    AOS.init({ duration: 500 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <Inner>
@@ -235,7 +235,7 @@ const ShadowEffect = styled.img`
 `;
 
 const SliderBox = styled.div`
-  padding-top: 20vw;
+  padding-top: 26.5vw;
   display: flex;
   width: 100vw;
 
@@ -245,7 +245,7 @@ const SliderBox = styled.div`
 `;
 
 const MobileSliderBox = styled.div`
-  padding-top: 20vw;
+  padding-top: 25vw;
   display: none;
   width: 100vw;
 
