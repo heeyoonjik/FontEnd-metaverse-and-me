@@ -13,7 +13,7 @@ const LoaJyeon = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/loaJyeon.png"
+          imgurl="img/loaJyeon.png"
           introheading="<Connect the Two World>"
           introheadingson="140 X 60 X 230cm, 폴리에틸렌·골판지박스·시트지, 2022"
           introcontent="메타버스라고 하면 낯설거나 멀게만 느끼는 사람이 많다. 하지만 사실 메타버스는 이미 우리의 삶 속에 있으며 너무나도 가까이 존재하고 있다. 그래서 우리는 메타버스와 현실세계가 이미 연결되어 있음을 조형물로 표현하고자 하였다.
@@ -43,7 +43,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -54,7 +54,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

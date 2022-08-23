@@ -13,7 +13,7 @@ const JulieHwarin = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/JulieHwarin.png"
+          imgurl="/img/JulieHwarin.png"
           introheading="<시선>"
           introheadingson="594 X 420mm, 거울지와 필름지, 2022"
           introcontent="우리는 거울을 통해 ‘나’를 마주한다. 거울은 가감 없이 나를 비추지만, 내가 거울을 바라보는 시선 속에는 나의 이상과 가치관이 담겨있다. 그렇기에 우리는 거울로 또 다른 나를 본다.
@@ -44,7 +44,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -55,7 +55,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

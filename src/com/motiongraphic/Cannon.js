@@ -53,7 +53,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -64,7 +64,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

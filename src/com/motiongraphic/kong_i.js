@@ -13,7 +13,7 @@ const Kongi = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/Kongi.png"
+          imgurl="/img/Kongi.png"
           introheading="<선택>"
           introheadingson="1920 X 1080px, 모션그래픽, 2022"
           introcontent="가상현실에 대해 다룬 영화<메트릭스>속 알약은 선택의 은유이다.
@@ -44,7 +44,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -55,7 +55,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

@@ -13,7 +13,7 @@ const Meta = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/meta.png"
+          imgurl="/img/meta.png"
           introheading="<new world>"
           introheadingson="8 X 15cm, 아크릴 스탠드, 2022"
           introcontent="새로운 세계에서 찾는 또다른 나. 더이상 메타에게 가지 못하는 곳은 없다. 새로운 세상을 찾아 떠나는 모험은 늘 멋진 경험을 하게 해준다. 어제도 오늘도 내일도 메타는 여러공간으로 떠난다. "
@@ -37,7 +37,7 @@ const Inner = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -48,7 +48,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

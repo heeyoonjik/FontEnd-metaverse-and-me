@@ -13,7 +13,7 @@ const Hyeon = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/Hyeon.png"
+          imgurl="/img/Hyeon.png"
           introheading="<비현실의 시각화>"
           introheadingson="1920 X 1080px, 모션그래픽, 2022"
           introcontent="가상현실은 비현실의 시각화이다.
@@ -43,7 +43,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -54,7 +54,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

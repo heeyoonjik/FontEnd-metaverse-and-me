@@ -12,7 +12,7 @@ const Z = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/z.png"
+          imgurl="/img/z.png"
           introheading="<OO PLAYGROND>"
           introheadingson="10 X 15cm, 아크릴 스탠드, 2022"
           introcontent="여기 메타버스 속 나, 제트에게 메타버스란 궁극의 무기도, 새로운 시대의 시작점도 아니다.
@@ -39,7 +39,7 @@ const Inner = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -50,7 +50,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

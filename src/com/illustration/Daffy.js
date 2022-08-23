@@ -12,7 +12,7 @@ const Daffy = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/daffy.png"
+          imgurl="/img/daffy.png"
           introheading="<Fiction world>"
           introheadingson="15 X 18cm, 아크릴 스탠드, 2022"
           introcontent="또 다른 나를 상징하는 가상 현실 속의 캐릭터는 나의 수많은 생각과 몽상에서 태어난다. 내 상상 속 정체성과 내가 되고 싶은 나의 모습 모두를 투영하는 투명한 캡슐은 나의 메타버스 세상 그 자체를 시각화해놓은 것이다. 모두, 자신이 사는 세계와 그 속의 자신이 전부 다르면서 섞이지 않듯, 캡슐 속의 세계 또한 모두 다르며 두 캡슐은 서로 분리되어 공존하고 있다. 
@@ -37,7 +37,7 @@ const Inner = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -47,7 +47,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

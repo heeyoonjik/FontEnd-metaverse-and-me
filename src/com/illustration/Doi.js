@@ -12,7 +12,7 @@ const Doi = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/doi.png"
+          imgurl="/img/doi.png"
           introheading="<pew- pew>"
           introheadingson="10 X 15cm, 아크릴 스탠드, 2022"
           introcontent=" 제한 없는 공간 속에서 자유롭게 생활하는 도이 .
@@ -37,7 +37,7 @@ const Inner = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -48,7 +48,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;

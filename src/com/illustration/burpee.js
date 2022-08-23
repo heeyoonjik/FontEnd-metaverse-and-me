@@ -14,7 +14,7 @@ const Burpee = () => {
       </ConnectedNav>
       <PopUpBox>
         <ConnectPop
-          imgurl="http://localhost:3000/img/burpee.png"
+          imgurl="/img/burpee.png"
           introheading="<모험>"
           introheadingson="10 X 15cm, 아크릴 스탠드, 2022"
           introcontent="메타버스라는 가상 세계에서는 어디든 자유롭게 이동할 수 있다. 평소에는 쉽게 가보지 못하는 다른 나라나, 관광지 등을 시간과 공간의 제약에 구애받지 않고 가상현실이지만 실제 같은 듯한 느낌을 받으며 메타버스 안에서 모험을 하는 경험을 해볼 수 있을 것이다."
@@ -44,7 +44,7 @@ const PopUpBox = styled.div`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/buddy.png");
+  background-image: url("/img/buddy.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -53,7 +53,7 @@ const ConnectedNav = styled.nav`
   display: flex;
   z-index: 10292;
   @media screen and (max-width: 770px) {
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
     width: 100vw;
     height: 209vw;
     top: 70vw;
