@@ -35,16 +35,18 @@ export const BackToTopBtn = () => {
 const Btn = styled.button`
   position: fixed;
   bottom: 2.604vw;
-  right: 2.604vw;
-  width: 2.604vw;
-  height: 2.604vw;
+  right: 1.304vw;
   background: none;
   border: none;
   @media screen and (max-width: 770px) {
-    bottom: 20.604vw;
-    right: 23.04vw;
-    height: 1.604vw;
+    bottom: 1.604vw;
+    right: 6.04vw;
   }
 `;
 
-const BtnImg = styled.img``;
+const BtnImg = styled.img`
+  width: 5vw;
+  @media screen and (max-width: 770px) {
+    width: 17vw;
+  }
+`;

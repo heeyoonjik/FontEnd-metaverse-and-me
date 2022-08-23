@@ -13,6 +13,7 @@ const Home = () => {
         src="/img/motioncom.mp4"
         autoPlay={true}
         loop
+        muted
         playsInline
         id="section1"
       />

@@ -106,10 +106,12 @@ const IntroductionHeading = styled.h1`
 const Main = styled.div`
   background-image: url(/img/guestbg.png);
   width: 100vw;
+
   padding-bottom: 10vw;
   background-size: contain;
   @media screen and (max-width: 770px) {
     background-image: url(/img/mobileguest.png);
+    background-size: auto;
   }
 `;
 
@@ -144,7 +146,6 @@ const InputNameBox = styled.textarea`
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-
   width: 10.094vw;
   border-top: 1px solid black;
   border-left: 1px solid black;
@@ -190,7 +191,6 @@ const InputContentBox = styled.textarea`
 const FormBtn = styled.button`
   border: none;
   background: none;
-
   position: absolute;
   left: 88vw;
   top: 30vw;

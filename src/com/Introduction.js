@@ -49,7 +49,7 @@ const Introduction = () => {
         <IdentitySection>
           <IdentityP
             data-aos="fade-up"
-            data-aos-anchor-placement="bottom-center"
+            data-aos-anchor-placement="center-bottom"
             data-aos-delay="300"
             data-aos-once="true"
           >
