@@ -13,7 +13,7 @@ export const ConnectedHeading = ({ heading }) => {
   );
 };
 const Back = styled.img`
-  width: 2.2vw;
+  width: 1.8vw;
   @media screen and (max-width: 770px) {
     width: 6.5vw;
   }
@@ -22,7 +22,7 @@ const Back = styled.img`
 const BackLink = styled(Link)`
   position: absolute;
   z-index: 99999992;
-  top: 2.3vw;
+  top: 2.2vw;
   left: 3vw;
   @media screen and (max-width: 770px) {
     top: 9vw;

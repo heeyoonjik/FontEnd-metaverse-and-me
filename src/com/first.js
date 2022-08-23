@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import dummy from "../database/identityData.json";
 import styled from "styled-components";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 export const First = ({
   chracterName,
   realName,
@@ -15,6 +16,9 @@ export const First = ({
   ChangetestValue,
   setTestValue,
 }) => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const IdNum = parseInt(idValue);
   function sendIdValue() {
     setnameId(IdNum);
@@ -22,7 +26,7 @@ export const First = ({
   const OTsrc = dummy.ots.filter((ots) => ots.img === IdNum);
   const sibal = OTsrc.map((e) => e.tasksrc);
   return (
-    <Characterbox>
+    <Characterbox data-aos="fade-up">
       <CharacterImgBox>
         <ChracterImg src={imgurl} />
       </CharacterImgBox>
@@ -104,7 +108,7 @@ const ChracterkNameBox = styled.div`
 `;
 
 const ChracterName = styled.p`
-  margin-left: 1vw;
+  margin-left: 2vw;
   font-size: 2vw;
   @media screen and (max-width: 770px) {
     font-size: 3.7vw;
@@ -131,6 +135,7 @@ const IntroPBox = styled.div`
 `;
 const IntroP = styled.p`
   margin: 1vw 1vw;
+
   line-height: 2.1vw;
   text-overflow: ellipsis;
   @media screen and (max-width: 770px) {
@@ -141,7 +146,7 @@ const IntroP = styled.p`
 `;
 const MobileIntroP = styled.p`
   display: none;
-  margin: 1vw 1vw;
+  margin: 1vw 2vw;
   line-height: 2.1vw;
   text-overflow: ellipsis;
 

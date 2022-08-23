@@ -35,7 +35,7 @@ const Introduction = () => {
           </Marquee>
         </SliderBox>
         <MobileSliderBox>
-          <Marquee gradient={false} speed="20">
+          <Marquee gradient={false} speed="30">
             <SliderData>
               <Icon1 src="img/vector1.png" alt="icon1" />
               <Icon2 src="img/vector2.png" alt="icon2" />
@@ -62,8 +62,14 @@ const Introduction = () => {
             거듭납니다. 나와 당신은 진정한 ‘나’를 찾고. ‘나’의 생각을 설계하며,
             상대방과 ‘나’를 연결합니다.
           </IdentityP>
-          <IdentityLine />
-          <Star src="img/star.png" alt="star" />
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-once="true"
+          >
+            <IdentityLine />
+            <Star src="img/star.png" alt="star" />
+          </div>
         </IdentitySection>
         <CreditBox>
           <ArtistSection
@@ -245,7 +251,7 @@ const SliderBox = styled.div`
 `;
 
 const MobileSliderBox = styled.div`
-  padding-top: 25vw;
+  padding-top: 26vw;
   display: none;
   width: 100vw;
 
@@ -261,12 +267,12 @@ const SliderData = styled.div`
 `;
 
 const Icon1 = styled.img`
-  height: 9vw;
+  height: 7.5vw;
   padding: 0 3vw;
 `;
 
 const Icon2 = styled.img`
-  height: 9vw;
+  height: 7.5vw;
   padding: 0 3vw;
 `;
 
@@ -305,6 +311,7 @@ const Star = styled.img`
   height: 1.4vw;
   @media screen and (max-width: 770px) {
     height: 4vw;
+    left: -1.93vw;
   }
 `;
 

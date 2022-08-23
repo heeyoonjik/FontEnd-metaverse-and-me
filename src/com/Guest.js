@@ -1,8 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { BackToTopBtn } from "./BackToTopBtn";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Guest = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const [contents, setContents] = useState([]);
 
   const getData = async () => {
@@ -118,6 +123,7 @@ const InputBoxContainer = styled.div`
   width: 100vw;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 2.8vw;
   @media screen and (max-width: 770px) {
     justify-content: center;
   }
@@ -196,13 +202,13 @@ const FormBtn = styled.button`
   top: 30vw;
   cursor: pointer;
   @media screen and (max-width: 770px) {
-    left: 83vw;
-    top: 75vw;
+    left: 82vw;
+    top: 74.5vw;
   }
 `;
 const FormBtnImg = styled.img`
   @media screen and (max-width: 770px) {
-    height: 6.084vw;
+    height: 5.084vw;
   }
 `;
 
@@ -217,7 +223,7 @@ const CommentBoxContainer = styled.div`
   width: 77.8vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.769vw;
+  gap: 2.7vw;
   @media screen and (max-width: 770px) {
     display: flex;
     flex-direction: column;
@@ -229,7 +235,8 @@ const CommentBoxContainer = styled.div`
 
 const CommentBox = styled.div`
   width: 24.948vw;
-  height: 13.746vw;
+  height: 13.796vw;
+
   background-color: white;
   border: 1px solid black;
   display: flex;
@@ -238,8 +245,8 @@ const CommentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 83.2vw;
-    height: 42.1vw;
-    margin-top: 5.48vw;
+    height: 41.8vw;
+    margin-top: 5.543vw;
   }
 `;
 
@@ -289,7 +296,7 @@ const CommentBoxCom = ({ name, contents, date }) => {
   const dateData = date.substring(0, 10);
 
   return (
-    <CommentBox>
+    <CommentBox data-aos="fade-up">
       <CommentBoxNameDateContainer>
         <CommentBoxName>{name}</CommentBoxName>
         <ConmmentBoxDate>{dateData}</ConmmentBoxDate>

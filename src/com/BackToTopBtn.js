@@ -1,8 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import styled from "styled-components";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const BackToTopBtn = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
   const [showBtn, setShowBtn] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -24,7 +29,7 @@ export const BackToTopBtn = () => {
   return (
     <div>
       {showBtn && (
-        <Btn onClick={scrollUp}>
+        <Btn onClick={scrollUp} data-aos="fade-up">
           <BtnImg src="/img/totop.png" />
         </Btn>
       )}

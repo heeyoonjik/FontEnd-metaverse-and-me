@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Connected = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <Inner>
       <IntroductionHeading>CONNECTED</IntroductionHeading>
@@ -84,7 +89,7 @@ const ConnectedNav = styled.nav`
     background-size: cover;
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: 100vh;
     margin-top: 22vw;
     background-image: url("/img/mobileframe.png");
   }

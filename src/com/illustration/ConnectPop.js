@@ -15,10 +15,10 @@ const ConnectPop = ({
   btn2,
 }) => {
   useEffect(() => {
-    AOS.init({ duration: 300 });
+    AOS.init({ duration: 2000 });
   }, []);
   return (
-    <Inner data-aos="zoom-out-down">
+    <Inner data-aos="fade-up">
       <MobileHeadingBox>
         <MobileHeading>{introheading}</MobileHeading>
         <MobileHeadingSon>{introheadingson}</MobileHeadingSon>
