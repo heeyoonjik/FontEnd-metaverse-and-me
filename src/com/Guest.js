@@ -104,14 +104,13 @@ const IntroductionHeading = styled.h1`
 `;
 
 const Main = styled.div`
-  background-image: url(/img/guestbg.png);
+  background-image: url(/img/gur4.png);
   width: 100vw;
-
   padding-bottom: 10vw;
   background-size: contain;
   @media screen and (max-width: 770px) {
-    background-image: url(/img/mobileguest.png);
-    background-size: auto;
+    background-image: url(/img/gubg2.png);
+    background-size: contain;
   }
 `;
 
@@ -133,6 +132,7 @@ const InputBox = styled.div`
   @media screen and (max-width: 770px) {
     margin-right: 0;
     margin-top: 8.521vw;
+    padding: 0;
     width: 83.79vw;
     height: 34vw;
     margin-left: 0.3vw;
@@ -217,19 +217,19 @@ const CommentBoxContainer = styled.div`
   width: 77.8vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.633vw;
+  gap: 2.769vw;
   @media screen and (max-width: 770px) {
     display: flex;
     flex-direction: column;
     width: 83.59vw;
     align-items: center;
-    margin-left: 0.3vw;
+    margin-left: 0.4vw;
   }
 `;
 
 const CommentBox = styled.div`
   width: 24.948vw;
-  height: 13.906vw;
+  height: 13.746vw;
   background-color: white;
   border: 1px solid black;
   display: flex;
@@ -238,7 +238,7 @@ const CommentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 83.2vw;
-    height: 41.906vw;
+    height: 42.1vw;
     margin-top: 5.7vw;
   }
 `;
