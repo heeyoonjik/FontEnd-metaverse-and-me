@@ -40,6 +40,11 @@ const Btn = styled.button`
   height: 2.604vw;
   background: none;
   border: none;
+  @media screen and (max-width: 770px) {
+    bottom: 20.604vw;
+    right: 23.04vw;
+    height: 1.604vw;
+  }
 `;
 
 const BtnImg = styled.img``;

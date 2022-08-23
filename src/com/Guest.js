@@ -131,12 +131,20 @@ const InputBox = styled.div`
   @media screen and (max-width: 770px) {
     margin-right: 0;
     margin-top: 8.521vw;
-    width: 83.59vw;
+    width: 83.79vw;
     height: 34vw;
+    margin-left: 0.3vw;
   }
 `;
 
 const InputNameBox = styled.textarea`
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+
   width: 10.094vw;
   border-top: 1px solid black;
   border-left: 1px solid black;
@@ -156,6 +164,12 @@ const InputNameBox = styled.textarea`
 `;
 
 const InputContentBox = styled.textarea`
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
   width: 27.708vw;
   border: 1px solid black;
   color: black;
@@ -209,6 +223,7 @@ const CommentBoxContainer = styled.div`
     flex-direction: column;
     width: 83.59vw;
     align-items: center;
+    margin-left: 0.3vw;
   }
 `;
 
@@ -222,9 +237,9 @@ const CommentBox = styled.div`
   @media screen and (max-width: 770px) {
     display: flex;
     flex-direction: column;
-    width: 83.59vw;
+    width: 83.2vw;
     height: 41.906vw;
-    margin-top: 5.9vw;
+    margin-top: 5.7vw;
   }
 `;
 
