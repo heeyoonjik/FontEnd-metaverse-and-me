@@ -34,10 +34,10 @@ export const BackToTopBtn = () => {
 
 const Btn = styled.button`
   position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 50px;
-  height: 50px;
+  bottom: 2.604vw;
+  right: 2.604vw;
+  width: 2.604vw;
+  height: 2.604vw;
   background: none;
   border: none;
 `;

@@ -14,7 +14,7 @@ const Connected = () => {
             경험합니다
           </P>
           <GoLink to="/Connected/ILLUSTRATION/burpee">
-            <GoIcon src="img/go.png" />
+            <GoIcon src="/img/go.png" />
           </GoLink>
         </NavIllustration>
         <NavInstallation>
@@ -24,7 +24,7 @@ const Connected = () => {
             타인의 내면세계에 한발을 내딛습니다
           </P>
           <GoLink to="/Connected/INSTALLATION/DoiBonnie">
-            <GoIcon src="img/go.png" />
+            <GoIcon src="/img/go.png" />
           </GoLink>
         </NavInstallation>
         <NavMotionGraphic>
@@ -34,7 +34,7 @@ const Connected = () => {
             마음껏 설계합니다
           </P>
           <GoLink to="/Connected/MotionGraphic/Jjo">
-            <GoIcon src="img/go.png" />
+            <GoIcon src="/img/go.png" />
           </GoLink>
         </NavMotionGraphic>
       </ConnectedNav>
@@ -69,7 +69,7 @@ const IntroductionHeading = styled.h1`
 `;
 
 const ConnectedNav = styled.nav`
-  background-image: url("http://localhost:3000/img/real.png");
+  background-image: url("/img/real.png");
   background-size: cover;
   width: 100.3vw;
   height: 42vw;
@@ -86,7 +86,7 @@ const ConnectedNav = styled.nav`
     align-items: center;
     height: auto;
     margin-top: 22vw;
-    background-image: url("http://localhost:3000/img/mobileframe.png");
+    background-image: url("/img/mobileframe.png");
   }
 `;
 
