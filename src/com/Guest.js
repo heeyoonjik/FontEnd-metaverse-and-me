@@ -109,7 +109,7 @@ const Main = styled.div`
   padding-bottom: 10vw;
   background-size: contain;
   @media screen and (max-width: 770px) {
-    background-image: url(/img/gubg2.png);
+    background-image: url(/img/mgbg.png);
     background-size: contain;
   }
 `;
@@ -239,7 +239,7 @@ const CommentBox = styled.div`
     flex-direction: column;
     width: 83.2vw;
     height: 42.1vw;
-    margin-top: 5.7vw;
+    margin-top: 5.48vw;
   }
 `;
 
