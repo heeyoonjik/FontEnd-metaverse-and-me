@@ -60,7 +60,7 @@ const Characterbox = styled.div`
   flex-direction: column;
   border-bottom: 1px solid white;
   @media screen and (max-width: 770px) {
-    width: 50.4vw;
+    width: 50.11vw;
   }
 `;
 
@@ -75,7 +75,7 @@ const ChracterImg = styled.img`
   height: 29.3vw;
 
   @media screen and (max-width: 770px) {
-    height: 29vw;
+    height: 21.5vw;
   }
 `;
 
@@ -98,6 +98,9 @@ const ChracterkNameBox = styled.div`
   align-items: center;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+  @media screen and (max-width: 770px) {
+    margin-right: -0.19vw;
+  }
 `;
 
 const ChracterName = styled.p`
