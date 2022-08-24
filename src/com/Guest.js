@@ -126,6 +126,7 @@ const InputBoxContainer = styled.div`
   margin-bottom: 2.8vw;
   @media screen and (max-width: 770px) {
     justify-content: center;
+    margin-bottom: 3.5vw;
   }
 `;
 const InputBox = styled.div`
@@ -136,10 +137,10 @@ const InputBox = styled.div`
   margin-right: 8.438vw;
   @media screen and (max-width: 770px) {
     margin-right: 0;
-    margin-top: 8.21vw;
+    margin-top: 8.4vw;
     padding: 0;
     width: 83.79vw;
-    height: 34.9vw;
+    height: 34.2vw;
     margin-left: 0.3vw;
     background: transparent;
   }
@@ -219,6 +220,9 @@ const CommentBoxContainerFather = styled.div`
   display: flex;
   justify-content: center;
   margin-top: -0.12vw;
+  @media screen and (max-width: 770px) {
+    margin-top: 3.4vw;
+  }
 `;
 
 const CommentBoxContainer = styled.div`
@@ -232,7 +236,7 @@ const CommentBoxContainer = styled.div`
     width: 83.59vw;
     align-items: center;
     margin-left: 0.4vw;
-    margin-top: -0.4vw;
+    margin-top: -0.7vw;
   }
 `;
 
@@ -247,8 +251,8 @@ const CommentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 83.2vw;
-    height: 42.44vw;
-    margin-top: 5.34vw;
+    height: 42vw;
+    margin-top: 5.6vw;
   }
 `;
 
