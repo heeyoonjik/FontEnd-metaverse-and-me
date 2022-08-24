@@ -140,7 +140,7 @@ const InputBox = styled.div`
     margin-top: 8.4vw;
     padding: 0;
     width: 83.79vw;
-    height: 34.2vw;
+    height: 35vw;
     margin-left: 0.3vw;
     background: transparent;
   }
@@ -221,7 +221,7 @@ const CommentBoxContainerFather = styled.div`
   justify-content: center;
   margin-top: -0.12vw;
   @media screen and (max-width: 770px) {
-    margin-top: 3.4vw;
+    margin-top: 2.6vw;
   }
 `;
 

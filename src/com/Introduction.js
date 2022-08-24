@@ -108,7 +108,7 @@ const Introduction = () => {
             data-aos-anchor-placement="bottom-bottom"
             data-aos-once="true"
           >
-            <Heading>Wev Developer</Heading>
+            <Heading>Web Developer</Heading>
             <CreaterBox>김희윤 김해찬</CreaterBox>
           </WebDeveloperSection>
         </CreditBox>
