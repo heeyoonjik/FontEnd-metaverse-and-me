@@ -108,7 +108,7 @@ const HeaderBox = styled.nav`
   z-index: 999;
   transition: background-color 0.3s ease-in-out 0s;
   .on {
-    filter: blur(3px);
+    filter: blur(2.5px);
   }
   .Nav {
     margin: 0 2.5vw;
@@ -117,7 +117,7 @@ const HeaderBox = styled.nav`
     font-size: 1.9vw;
   }
   .Nav:hover {
-    filter: blur(3px);
+    filter: blur(2.5px);
   }
 
   #text {
