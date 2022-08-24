@@ -254,7 +254,31 @@ const CommentBox = styled.div`
     flex-direction: column;
     width: 83.2vw;
     height: 42vw;
-    margin-top: 5.6vw;
+    margin-top: 5.85vw;
+  }
+  @media screen and (max-width: 650px) {
+    height: 42vw;
+    margin-top: 5.79vw;
+  }
+  @media screen and (max-width: 550px) {
+    height: 42vw;
+    margin-top: 5.74vw;
+  }
+  @media screen and (max-width: 450px) {
+    height: 42vw;
+    margin-top: 5.68vw;
+  }
+  @media screen and (max-width: 390px) {
+    height: 42vw;
+    margin-top: 5.61vw;
+  }
+  @media screen and (max-width: 330px) {
+    height: 42vw;
+    margin-top: 5.49vw;
+  }
+  @media screen and (max-width: 300px) {
+    height: 42vw;
+    margin-top: 5.42vw;
   }
 `;
 
