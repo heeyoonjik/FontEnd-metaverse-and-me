@@ -76,7 +76,7 @@ const CharacterImgBox = styled.div`
 `;
 
 const ChracterImg = styled.img`
-  height: 29.3vw;
+  height: 29.2vw;
 
   @media screen and (max-width: 770px) {
     height: 21.5vw;
@@ -85,7 +85,7 @@ const ChracterImg = styled.img`
 
 const LowerBox = styled.div`
   display: grid;
-  grid-template-columns: 4.3fr 1fr;
+  grid-template-columns: 4.3fr 1.5fr;
   grid-template-rows: 1fr 2fr;
   flex-direction: column;
   font-family: "SDGothic";
@@ -102,6 +102,7 @@ const ChracterkNameBox = styled.div`
   align-items: center;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+  margin-right: -0.09vw;
   @media screen and (max-width: 770px) {
     margin-right: -0.19vw;
   }

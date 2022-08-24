@@ -11,24 +11,22 @@ const Home = () => {
     <Inner>
       <VideoBg
         src="/img/motioncom.mp4"
+        muted
         autoPlay
         loop
-        muted
         playsInline
         id="section1"
       />
       <MobileVideoBg
         src="/img/motionapp2.mp4"
+        muted
         autoPlay
         loop
-        muted
         playsInline
         id="section1"
       />
 
-      <Footer
-      // data-aos="fade-up"
-      >
+      <Footer>
         <Active src="img/active.png" />
         <FooterP>
           VISUAL DESIGN EXHIBITION 2022 I:METAVERSE AND ME

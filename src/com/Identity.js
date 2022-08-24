@@ -33,7 +33,7 @@ const Identity = () => {
           imgurl="/img/identity/jisu.png"
           chracterName="픽시"
           realName="강지수"
-          intro="장난끼가 많은 성격이 신화 속 요정인 픽시와 닮아 이름을 따왔다. 야망 넘치는 픽시의 꿈은 우주정복..."
+          intro="장난끼가 많은 성격이 신화 속 요정인 픽시와 닮아 이름을 따왔다. 야망 넘치는 픽시의 꿈..."
           mobileintro="장난끼가 많은 성격이 신화 속 요정인 픽시와 닮아 이름을 따왔다. 야망 넘치는 픽시의 꿈은 우주정복..."
           ChangeModalValue={ChangeModalValue}
           setnameId={setnameId}
@@ -296,7 +296,7 @@ const Identity = () => {
           imgurl="img/identity/김재욱-2.png"
           chracterName="우기"
           realName="김재욱"
-          intro="여러가지 만능 재주꾼. 창조해내는 것을 좋아하는 친구이다. 무언가를 만들어내는 것은 언제나 설레고..."
+          intro="여러가지 만능 재주꾼. 창조해내는 것을 좋아하는 친구이다. 무언가를 만들어내는 것은..."
           mobileintro="여러가지 만능 재주꾼. 창조해내는 것을 좋아하는 친구이다. 무언가를 만들어 ..."
           ChangeModalValue={ChangeModalValue}
           setnameId={setnameId}
@@ -304,9 +304,12 @@ const Identity = () => {
           idValue="24"
         />
       </DivBlock>
-      <IdentityFoter>
+      <IdentityFooter>
         <FooterLogo src="img/activelogo.png" />
-      </IdentityFoter>
+      </IdentityFooter>
+      <IdentityMobileFoter>
+        <FooterLogo src="img/activelogo.png" />
+      </IdentityMobileFoter>
     </TotalInner>
   );
 };
@@ -315,13 +318,30 @@ export default Identity;
 
 const TotalInner = styled.div`
   width: 100vw;
+  padding-bottom: 10vw;
   @media screen and (max-width: 770px) {
     /* overflow-x: hidden;
     min-width: 100vw; */
   }
 `;
 
-const IdentityFoter = styled.div`
+const IdentityFooter = styled.div`
+  display: block;
+  width: 100vw;
+  height: 11vh;
+  box-shadow: 0 0 20px 20px black;
+  position: fixed;
+  background-color: black;
+  bottom: 0vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 770px) {
+    display: none;
+  }
+`;
+
+const IdentityMobileFoter = styled.div`
   display: none;
   @media screen and (max-width: 770px) {
     display: block;
@@ -349,5 +369,7 @@ const DivBlock = styled.div`
   }
 `;
 const FooterLogo = styled.img`
-  margin-bottom: 5.128vw;
+  @media screen and (max-width: 770px) {
+    margin-bottom: 5.128vw;
+  }
 `;
