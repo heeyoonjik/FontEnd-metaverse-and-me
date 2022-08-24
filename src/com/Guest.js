@@ -221,7 +221,7 @@ const CommentBoxContainerFather = styled.div`
   justify-content: center;
   margin-top: -0.12vw;
   @media screen and (max-width: 770px) {
-    margin-top: 2.6vw;
+    margin-top: -0.6vw;
   }
 `;
 
