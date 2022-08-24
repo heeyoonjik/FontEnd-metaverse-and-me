@@ -11,7 +11,7 @@ const Home = () => {
     <Inner>
       <VideoBg
         src="/img/motioncom.mp4"
-        autoPlay={true}
+        autoPlay
         loop
         muted
         playsInline
@@ -19,7 +19,7 @@ const Home = () => {
       />
       <MobileVideoBg
         src="/img/motionapp2.mp4"
-        autoPlay={true}
+        autoPlay
         loop
         muted
         playsInline

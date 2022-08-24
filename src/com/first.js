@@ -26,7 +26,7 @@ export const First = ({
   const OTsrc = dummy.ots.filter((ots) => ots.img === IdNum);
   const sibal = OTsrc.map((e) => e.tasksrc);
   return (
-    <Characterbox data-aos="fade-up">
+    <Characterbox data-aos="fade-up" data-aos-once="true">
       <CharacterImgBox>
         <ChracterImg src={imgurl} />
       </CharacterImgBox>
