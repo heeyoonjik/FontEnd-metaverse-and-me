@@ -53,11 +53,11 @@ export default ConnectPop;
 
 const Inner = styled.div`
   position: absolute;
-  top: 21.34vw;
+  top: 21.25vw;
   display: flex;
-  height: 30.55vw;
-  width: 94.3vw;
-  margin-right: 0.51vw;
+  height: 30.68vw;
+  width: 94.5vw;
+  margin-right: 0.1vw;
   z-index: 99998;
   @media screen and (max-width: 770px) {
     top: 79vw;
