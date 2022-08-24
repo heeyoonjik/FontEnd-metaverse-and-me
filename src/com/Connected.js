@@ -168,7 +168,7 @@ const NavMotionGraphic = styled.section`
 
 const Heading = styled.h1`
   color: white;
-  font-weight: 700;
+  font-family: "SDGothicBold";
   font-size: 1.8vw;
   padding-bottom: 2.5vw;
   padding-top: 1.4vw;

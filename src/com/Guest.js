@@ -147,6 +147,7 @@ const InputBox = styled.div`
 `;
 
 const InputNameBox = styled.textarea`
+  font-family: "SDGothic";
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -172,6 +173,7 @@ const InputNameBox = styled.textarea`
 `;
 
 const InputContentBox = styled.textarea`
+  font-family: "SDGothic";
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -264,7 +266,9 @@ const CommentBoxNameDateContainer = styled.div`
 const CommentBoxName = styled.p`
   font-size: 0.938vw;
   font-family: "SDGothicBold";
+
   color: black;
+
   margin-top: 2.04vw;
   padding-left: 1.25vw;
   @media screen and (max-width: 770px) {
@@ -274,6 +278,7 @@ const CommentBoxName = styled.p`
 `;
 
 const ConmmentBoxDate = styled.div`
+  font-family: "SDGothic";
   font-size: 0.938vw;
   color: black;
   margin-top: 2.04vw;
@@ -283,8 +288,10 @@ const ConmmentBoxDate = styled.div`
     margin-right: 5.385vw;
   }
 `;
+
 const CommentBoxContent = styled.p`
   font-size: 0.938vw;
+  font-family: "SDGothic";
   line-height: 1.406vw;
   color: black;
   padding-left: 1.25vw;

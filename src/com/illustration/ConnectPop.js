@@ -53,11 +53,11 @@ export default ConnectPop;
 
 const Inner = styled.div`
   position: absolute;
-  top: 21.5vw;
+  top: 21.3vw;
   display: flex;
   height: 30.6vw;
-  width: 95.6vw;
-  margin-left: 1.3vw;
+  width: 94.4vw;
+  margin-left: 0.1vw;
   z-index: 99998;
   @media screen and (max-width: 770px) {
     top: 79vw;
@@ -120,20 +120,26 @@ const IntroUpperHeading = styled.h1`
 `;
 const IntroUpperHeadingSon = styled.p`
   color: black;
-  font-size: 0.9vw;
+  font-family: "SDGothic";
+  line-height: 1.875vw;
+  font-size: 0.938vw;
   margin-right: 1.3vw;
 `;
 
 const IntroUpperP = styled.p`
   display: flex;
   flex-direction: column;
+  font-family: "SDGothic";
   align-items: flex-start;
   color: black;
   margin: 1vw 1vw;
   font-size: 1.2vw;
+  line-height: 1.875vw;
+
   @media screen and (max-width: 770px) {
     font-size: 3.8vw;
     padding: 3.3vw;
+    line-height: 6.41vw;
   }
 `;
 
@@ -168,10 +174,12 @@ const IntroLowerFlex = styled.div`
 const IntroLowerDepartment = styled.p`
   color: black;
   margin-left: 1vw;
+  font-family: "SDGothic";
 `;
 const IntroLowerName = styled.p`
   color: black;
   margin-left: 1vw;
+  font-family: "SDGothic";
 `;
 
 const MobileHeadingBox = styled.div`
@@ -208,6 +216,7 @@ const MobileHeadingSon = styled.p`
     color: black;
     font-size: 3vw;
     margin-right: 2.5vw;
+    font-family: "SDGothic";
   }
 `;
 

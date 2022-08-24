@@ -108,6 +108,7 @@ const ChracterkNameBox = styled.div`
 `;
 
 const ChracterName = styled.p`
+  font-family: "SDGothic";
   margin-left: 2vw;
   font-size: 2vw;
   @media screen and (max-width: 770px) {
@@ -117,6 +118,7 @@ const ChracterName = styled.p`
 
 const RealName = styled.div`
   display: flex;
+  font-family: "SDGothic";
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -135,7 +137,7 @@ const IntroPBox = styled.div`
 `;
 const IntroP = styled.p`
   margin: 1vw 1vw;
-
+  font-family: "SDGothic";
   line-height: 2.1vw;
   text-overflow: ellipsis;
   @media screen and (max-width: 770px) {
@@ -149,7 +151,7 @@ const MobileIntroP = styled.p`
   margin: 1vw 2vw;
   line-height: 2.1vw;
   text-overflow: ellipsis;
-
+  font-family: "SDGothic";
   @media screen and (max-width: 770px) {
     display: block;
     font-size: 2.8vw;

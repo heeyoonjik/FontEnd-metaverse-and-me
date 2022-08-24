@@ -61,7 +61,6 @@ const ConnectedNav = styled.nav`
   width: 100.3vw;
   height: 42vw;
   position: absolute;
-
   top: 13vw;
   z-index: -10;
   display: flex;

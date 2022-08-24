@@ -23,7 +23,7 @@ const Introduction = () => {
           data-aos-once="true"
         />
         <SliderBox>
-          <Marquee gradient={false} speed="30">
+          <Marquee gradient={false} speed="100">
             <SliderData>
               <Icon1 src="img/vector1.png" alt="icon1" />
               <Icon2 src="img/vector2.png" alt="icon2" />

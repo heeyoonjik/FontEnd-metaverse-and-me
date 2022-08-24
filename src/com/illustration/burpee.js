@@ -45,8 +45,8 @@ const PopUpBox = styled.div`
 
 const ConnectedNav = styled.nav`
   background-image: url("/img/buddy.png");
-  background-size: cover;
-  width: 100.3vw;
+  background-size: contain;
+  width: 100vw;
   height: 42vw;
   position: absolute;
   top: 13vw;
