@@ -137,7 +137,7 @@ const InputBox = styled.div`
   margin-right: 8.438vw;
   @media screen and (max-width: 770px) {
     margin-right: 0;
-    margin-top: 8.4vw;
+    margin-top: 8.1vw;
     padding: 0;
     width: 83.79vw;
     height: 35vw;
