@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Guest = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
   const [contents, setContents] = useState([]);
 
@@ -130,18 +130,18 @@ const InputBoxContainer = styled.div`
 `;
 const InputBox = styled.div`
   width: 38.75vw;
-  height: 13.905vw;
+  height: 13.91vw;
   display: flex;
-  background-color: white;
-  margin-top: 5.521vw;
+  margin-top: 5.58vw;
   margin-right: 8.438vw;
   @media screen and (max-width: 770px) {
     margin-right: 0;
-    margin-top: 8.521vw;
+    margin-top: 8.21vw;
     padding: 0;
     width: 83.79vw;
-    height: 34vw;
+    height: 34.9vw;
     margin-left: 0.3vw;
+    background: transparent;
   }
 `;
 
@@ -178,7 +178,9 @@ const InputContentBox = styled.textarea`
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   width: 27.708vw;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
   color: black;
   font-size: 1.25vw;
   padding-top: 0.8vw;
@@ -216,27 +218,27 @@ const CommentBoxContainerFather = styled.div`
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 2.713vw;
+  margin-top: -0.12vw;
 `;
 
 const CommentBoxContainer = styled.div`
   width: 77.8vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.7vw;
+  gap: 2.72vw;
   @media screen and (max-width: 770px) {
     display: flex;
     flex-direction: column;
     width: 83.59vw;
     align-items: center;
     margin-left: 0.4vw;
+    margin-top: -0.4vw;
   }
 `;
 
 const CommentBox = styled.div`
   width: 24.948vw;
-  height: 13.796vw;
-
+  height: 13.78vw;
   background-color: white;
   border: 1px solid black;
   display: flex;
@@ -245,8 +247,8 @@ const CommentBox = styled.div`
     display: flex;
     flex-direction: column;
     width: 83.2vw;
-    height: 42.4vw;
-    margin-top: 5.24vw;
+    height: 42.44vw;
+    margin-top: 5.34vw;
   }
 `;
 
@@ -296,7 +298,7 @@ const CommentBoxCom = ({ name, contents, date }) => {
   const dateData = date.substring(0, 10);
 
   return (
-    <CommentBox data-aos="fade-up">
+    <CommentBox data-aos="fade-up" data-aos-once="true">
       <CommentBoxNameDateContainer>
         <CommentBoxName>{name}</CommentBoxName>
         <ConmmentBoxDate>{dateData}</ConmmentBoxDate>

@@ -89,7 +89,7 @@ const ConnectedNav = styled.nav`
     background-size: cover;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: auto;
     margin-top: 22vw;
     background-image: url("/img/mobileframe.png");
   }
@@ -109,7 +109,7 @@ const NavIllustration = styled.section`
   }
   @media screen and (max-width: 770px) {
     width: 100vw;
-    height: 42vw;
+    height: 40vw;
     padding-top: 9vw;
     padding-bottom: 9vw;
     border-top: 1px solid white;
@@ -134,7 +134,7 @@ const NavInstallation = styled.section`
     padding-top: 9vw;
     padding-bottom: 9vw;
     width: 100vw;
-    height: 42vw;
+    height: 40vw;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
   }
@@ -157,7 +157,7 @@ const NavMotionGraphic = styled.section`
     padding-top: 9vw;
     padding-bottom: 9vw;
     width: 100vw;
-    height: 42vw;
+    height: 40vw;
     border-top: 1px solid white;
   }
 `;

@@ -33,10 +33,8 @@ const Identity = () => {
           imgurl="/img/identity/jisu.png"
           chracterName="픽시"
           realName="강지수"
-          intro="이름을 따왔다. 야망 넘치는 픽시의 꿈은 
-        우주정복이다. 장난이 많아 평소에는..."
-          mobileintro="이름을 따왔다. 야망 넘치는 픽시의 꿈은 
-        우주정복이다. 장난이 많아 평소에는..."
+          intro="장난끼가 많은 성격이 신화 속 요정인 픽시와 닮아 이름을 따왔다. 야망 넘치는 픽시의 꿈은 우주정복..."
+          mobileintro="장난끼가 많은 성격이 신화 속 요정인 픽시와 닮아 이름을 따왔다. 야망 넘치는 픽시의 꿈은 우주정복..."
           ChangeModalValue={ChangeModalValue}
           setnameId={setnameId}
           setTestValue={setTestValue}
