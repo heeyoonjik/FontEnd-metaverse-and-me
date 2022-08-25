@@ -333,7 +333,7 @@ const CommentBoxCom = ({ name, contents, date }) => {
   const dateData = date.substring(0, 10);
 
   return (
-    <CommentBox data-aos="fade-up" data-aos-once="true">
+    <CommentBox data-aos="fade-up">
       <CommentBoxNameDateContainer>
         <CommentBoxName>{name}</CommentBoxName>
         <ConmmentBoxDate>{dateData}</ConmmentBoxDate>
