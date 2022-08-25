@@ -35,7 +35,7 @@ const Introduction = () => {
           </Marquee>
         </SliderBox>
         <MobileSliderBox>
-          <Marquee gradient={false} speed="30">
+          <Marquee gradient={false} speed="20">
             <SliderData>
               <Icon1 src="img/vector1.png" alt="icon1" />
               <Icon2 src="img/vector2.png" alt="icon2" />
@@ -138,7 +138,12 @@ const Inner = styled.div`
   background-image: url("img/introBg.png");
   background-size: cover;
   position: absolute;
+
+  @media screen and (max-width: 770px) {
+    height: 450vw;
+  }
 `;
+
 const Noimg = styled.img`
   display: none;
 `;
@@ -205,7 +210,7 @@ const Line = styled.div`
     margin-top: ${marginTop};
   }
   @media screen and (max-width: 420px) {
-    height: 350vw;
+    height: 420vw;
   }
 `;
 
@@ -334,6 +339,9 @@ const ArtistSection = styled.section`
   position: relative;
   top: 10vw;
   width: 90vw;
+  @media screen and (max-width: 770px) {
+    margin-top: 10vw;
+  }
 `;
 
 const Heading = styled.h1`
@@ -362,6 +370,9 @@ const WebDesignSection = styled.section`
   align-items: center;
   position: relative;
   top: 23vw;
+  @media screen and (max-width: 770px) {
+    padding-top: 20vw;
+  }
 `;
 
 const WebDeveloperSection = styled.section`
@@ -370,4 +381,8 @@ const WebDeveloperSection = styled.section`
   align-items: center;
   position: relative;
   top: 33vw;
+  @media screen and (max-width: 770px) {
+    padding-top: 20vw;
+    height: 20vw;
+  }
 `;
