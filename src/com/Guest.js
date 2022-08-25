@@ -203,8 +203,8 @@ const FormBtn = styled.button`
   border: none;
   background: none;
   position: absolute;
-  left: 88vw;
-  top: 30vw;
+  left: 88.5vw;
+  top: 30.3vw;
   cursor: pointer;
   @media screen and (max-width: 770px) {
     left: 82vw;
@@ -212,6 +212,7 @@ const FormBtn = styled.button`
   }
 `;
 const FormBtnImg = styled.img`
+  height: 2vw;
   @media screen and (max-width: 770px) {
     height: 5.084vw;
   }
